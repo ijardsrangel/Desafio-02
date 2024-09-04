@@ -1,0 +1,61 @@
+
+html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/*Div contendo o invólucro do site*/
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*Div contendo o menu do site*/
+.menu {
+    width: 25%;
+    padding: 10px 20px 0px;
+}
+
+/*Div principal do site*/
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 75%;
+}
+
+/*Conteúdo do cabeçalho*/
+.header {
+    min-height: 150px;
+}
+
+/*Conteúdo do site*/
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+
+/*Rodapé*/
+.footer {
+    min-height: 150px;
+    text-align: center;
+}
+
+/*Parágrafos com textos justificados*/
+p {
+    text-align: justify;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
